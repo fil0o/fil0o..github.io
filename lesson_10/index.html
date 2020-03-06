@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<title>Temlate</title>
+</head>
+<body>
+  <h2>Пример кода на less </h2>
+  <code>
+    <pre>
+      @text-color : #1b1b1b;
+      @input-text-color: #454545;
+      @input-placeholder-color: #515151;
+      @border-color: #d0d0d0;
+      @bg-syan: #5ba2a9;
+      @btn-color: #fff;
+      @font-face: 'museo_bold', sans-serif;
+
+      .supper-icon-wrapper(){
+          content: "";
+          display: inline-block;
+          width: 1.5rem;
+          height: 0.1rem;
+          margin-bottom: 15px;
+          background-color: @bg-syan;
+      }
+
+      .input-placeholder(){
+          color: @input-placeholder-color;
+          font-size: 1.5rem;
+      }
+
+      .bg-form-icon() {
+          background: url(../img/user.svg) right 1.5rem center no-repeat;
+          background-size: 2rem;
+      }
+
+      html {
+          font-size: 10px;
+      }
+      body {
+          font-family: 'museo_reg', sans-serif;
+      }
+      section {
+          padding: 4rem 0 8rem;
+      }
+
+      a {
+          &:hover, &:focus, &:active {
+              text-decoration: none;
+          }
+      }
+      button:focus, input:focus, a:focus, textarea:focus{
+          outline: none;
+      }
+
+      h1, h2, h3, h4, h5, h6, p {
+          margin: 0;
+      }
+
+      .feedback-forms-all {
+          padding: 6rem 0 9rem 0;
+      }
+
+      .section-title {
+          margin-bottom: 6rem;
+          text-align: center;
+          text-transform: uppercase;
+          font-family: @font-face;
+          font-size: 3rem;
+          color: @text-color;
+          & .upper-icon-wrapper::before {
+              .supper-icon-wrapper();
+          }
+          & .upper-icon-wrapper::after {
+              .supper-icon-wrapper();
+          }
+          & .upper-icon-wrapper .upper-icon {
+              margin-bottom: 1.5rem;
+              width: 2rem;
+              height: 2rem;
+          }
+      }
+
+      .fedback-form-statement {
+          padding: 6rem 0 0;
+      }
+
+      .fedback-form-title {
+          margin-bottom: 6rem;
+          text-align: center;
+          & h3 {
+              margin-bottom: 1.2rem;
+              font-family: @font-face;
+              font-size: 2.5rem;
+              color: @text-color;
+          }
+          & p {
+              font-size: 1.8rem;
+          }
+      }
+
+      .fedback-form-input {
+          position: relative;
+          width: 100%;
+          padding: 1.4rem 4.5rem 1.4rem 1.4rem;
+          border: 2px solid @border-color;
+          opacity: .5;
+          color: @input-text-color;
+          -webkit-transition: 0.3s;
+          -moz-transition: 0.3s;
+          -ms-transition: 0.3s;
+          transition: 0.3s;
+          &::-webkit-input-placeholder{
+              .input-placeholder();
+          }
+          &::-moz-placeholder {
+              .input-placeholder();
+          }
+          &::-ms-input-placeholder{
+              .input-placeholder()
+          }
+          &:hover,&:focus{
+              opacity: 1;
+          }
+          & .input-user {
+              .bg-form-icon();
+          }
+          & .input-phone {
+              .bg-form-icon();
+          }
+      }
+
+      .feedback-form-btn {
+          min-width: 100%;
+          padding: 1.2rem;
+          background-color: @bg-syan;
+          text-transform: uppercase;
+          border: none;
+          color: @btn-color;
+          font-size: 1.8rem;
+          -webkit-transition: 0.4s;
+          transition: 0.4s;
+          &:hover {
+              background-color: @bg-syan;
+              border-radius: 10px;
+          }
+          & .title-feddback {
+              display: block;
+          }
+          & .description-feedback{
+              display: block;
+          }
+      }
+    </pre>
+  </code>
+</body>
+</html>
+
+
+
