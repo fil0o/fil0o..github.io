@@ -1,0 +1,90 @@
+/* Сброс */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Tahoma;
+    color: #333333;
+}
+
+.main-heading, .video-form-section, 
+.fichi-section, .client-section {
+    margin-bottom: 85px;
+}
+
+.main-heading {
+    margin-top: 120px;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.main-heading-small {
+    display: block;
+}
+
+.video-section {
+    margin-bottom: 30px;
+}
+
+.main-form {
+    border: 5px solid #2727d9;
+    padding: 36px 20px;
+}
+
+.section-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-form-input {
+    margin-bottom: 12px;
+}
+
+.btn-section {
+    margin-top: 12px;
+    background-color: #2727d9;
+    opacity: 0.9;
+}
+
+.fichi-section .section-heading, .client-section .section-heading{
+    margin-bottom: 85px;
+}
+
+.fichi-item {
+    margin-bottom: 50px;
+}
+
+.fichi-item figure{
+    margin: 0;
+    height: 80%;
+}
+
+.fichi-section .btn-section {
+    margin-top: 80px;
+}
+
+.client-section {
+    margin-top: 100px;
+}
+
+.client-item {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
