@@ -28,7 +28,10 @@
 [Урок 10](https://fil0o.github.io/lesson_10/ "Использование less") - Ускорение написания css при помощи less 
 
 
-[Урок 11](https://fil0o.github.io/lesson_11/ "Создание сниппетов") - Создание снипетов для html и css 
+[Урок 11](https://fil0o.github.io/lesson_11/ "Создание сниппетов") - Создание снипетов для html и css
+
+
+[Урок 12](https://fil0o.github.io/lesson_12/ "Верстка пиксель-перфект") - Верстаем форму при помощи pixel-perfect
 
 
 
