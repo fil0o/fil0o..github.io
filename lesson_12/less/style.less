@@ -1,0 +1,83 @@
+@bg-color: #01b3b3;
+@text-color: #333333;
+@body-bg-color: #ebf4f4;
+@fs-bg-color: #fff;
+@heading-form-color: #fff;
+@br-color: #cfdede;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: "Arial - Bold MT";
+  background-color: @body-bg-color;
+  letter-spacing: 1.1px;
+}
+
+.main-form {
+  margin: 105px 40.2%;
+  padding: 0 28px 0 29px;
+  width: 320px;
+  // background-image: linear-gradient(to top, @fs-bg-color 0%, @body-bg-color 100%);
+  background-color: @fs-bg-color;
+  border: 1px solid @br-color;
+  
+}
+
+.main-form-heading {
+  margin-bottom: 28px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background-color: @bg-color;
+  color: @heading-form-color;
+  padding: 4px 9px 7px 10px;
+  letter-spacing: -0.12px;
+  transform: translateY(-2px);
+}
+
+.input-heading, .form-input {
+  width: 100%;
+  display: block;
+}
+
+.input-heading {
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-weight: 900;
+  &::after {
+    color: @bg-color;
+    content: "*";
+  }
+  &:not(:first-of-type) {
+    margin-top: 15px;
+  }
+}
+
+.form-input {
+  padding: 7px 5px 8px 12px;
+  background-color: @body-bg-color;
+  border-color: transparent;
+  border-radius: 2px;
+  font-family: "Arial MT";
+}
+
+.btn-form {
+  width: 260px;
+  height: 45px;
+  letter-spacing: 1.2px;
+  margin: 35px 0 29px;
+  background-color: @bg-color;
+  border-radius: 4px;
+  color: @fs-bg-color;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  
+}
+
