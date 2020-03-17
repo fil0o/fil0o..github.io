@@ -1,0 +1,23 @@
+html {
+  font-size: 10px;
+}
+.button {
+  background-color: #ffb504;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+}
+section {
+  padding: 10rem 0;
+}
+main {
+  padding: 3rem 0;
+}
+.phone-link {
+  display: inline-block;
+  font-size: 1.7rem;
+  color: #1a1820;
+  font-weight: 900;
+}
